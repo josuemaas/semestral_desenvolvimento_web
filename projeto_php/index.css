@@ -1,0 +1,105 @@
+body p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#bloco_principal{
+  width: 80%;
+  height: 80%;
+  margin:150px auto auto auto;
+}
+
+#bloco_paragrafo, #bloco_feedback{
+  
+    padding:10px;
+
+}
+
+#bloco_paragrafo p {
+
+    font-size: 25px;
+   
+    
+}
+
+#bloco_feedback{
+
+
+    margin-top: 30px;
+}
+
+
+.scale {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+  
+  .label {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .scale-item {
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    margin-right: 2px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .scale-item:hover {
+    transform: scale(1.1);
+  }
+  button.scale-item:active {
+    transform: scale(0.95); /* Reduz o botão em 5% */
+    background-color: black; /* Altera a cor de fundo ao apertar */
+  }
+  
+  .scale-item[data-value="0"] { background-color: #FF0000; }
+  .scale-item[data-value="1"] { background-color: #FF3300; }
+  .scale-item[data-value="2"] { background-color: #FF6600; }
+  .scale-item[data-value="3"] { background-color: #FF9933; }
+  .scale-item[data-value="4"] { background-color: #FFCC33; }
+  .scale-item[data-value="5"] { background-color: #FFFF00; }
+  .scale-item[data-value="6"] { background-color: #CCFF33; }
+  .scale-item[data-value="7"] { background-color: #99FF33; }
+  .scale-item[data-value="8"] { background-color: #66FF66; }
+  .scale-item[data-value="9"] { background-color: #33FF99; }
+  .scale-item[data-value="10"] { background-color: #00FF00; }
+
+
+  #bloco_comentario{
+
+    margin-top: 50px;
+
+
+  }
+.fullscreen-textarea {
+    width: 100%;
+    
+    resize: none; /* Desativa o redimensionamento do textarea */
+   
+    padding: 5px;
+    
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+  }
+
+  #bloco_next_page{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+
+  
